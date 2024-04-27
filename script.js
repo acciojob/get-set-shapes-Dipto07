@@ -1,6 +1,6 @@
-//complete this code
+// Complete this code
 class Rectangle {
-	 constructor(width, height) {
+    constructor(width, height) {
         this._width = width;
         this._height = height;
     }
@@ -18,9 +18,8 @@ class Rectangle {
     }
 }
 
-class Square extends Animal {
-
-	constructor(side) {
+class Square extends Rectangle {
+    constructor(side) {
         super(side, side); 
     }
 
